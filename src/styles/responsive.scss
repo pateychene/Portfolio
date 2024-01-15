@@ -1,0 +1,65 @@
+// styles/responsive.scss
+
+@import 'base';
+
+@media (min-width: 768px) {
+    section {
+        padding: 3rem;
+
+        .projects-container {
+            .project-card {
+                width: 48%;
+            }
+        }
+    }
+
+    section#about {
+        .about-content {
+            .skills-list {
+                li {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    section {
+        padding: 4rem;
+
+        .projects-container {
+            .project-card {
+                width: 30%;
+            }
+        }
+    }
+
+    section#about {
+        .about-content {
+            .skills-list {
+                li {
+                    margin: 1.5rem;
+                }
+            }
+        }
+    }
+}
+section#skills {
+    .skills-list {
+        li {
+            flex: 0 0 calc(33.33% - 2rem);
+            max-width: calc(33.33% - 2rem);
+            box-sizing: border-box;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+// Add more responsive rules as needed
