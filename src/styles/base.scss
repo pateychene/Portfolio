@@ -40,6 +40,8 @@ section {
 
     h2 {
         color: $accent-color;
+        display: flex;
+        justify-content: center;
     }
 
     .projects-container {
