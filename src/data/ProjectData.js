@@ -14,6 +14,13 @@ const projectsData = [
         githubLink: 'https://github.com/your-username/task-manager-app',
         demoLink: 'https://your-task-manager-demo.com',
     },
+    {
+        name: 'Reservio',
+        description: 'Site web de reservations de logements.',
+        technologies: ['HTML', 'CSS'],
+        githubLink:'',
+        demoLink: null ,
+    }
     // Add more projects as needed
 ];
 
